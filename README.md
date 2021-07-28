@@ -2,7 +2,7 @@
 
 This is a simple project that will reproduce an issue in Visual Studio 2019 Debugger (native) where we are unable to get the reference of an internal class to a DLL when some pattern of the DLL exist. I though at first that the issue was with dashes in the name of the DLL but so far I was able to reproduce the issue if there is a dash followed by a number.
 
-![Image](resources\2021-07-28_103606_162_devenv.png)
+![Image](resources/2021-07-28_103606_162_devenv.png)
 
 This project shows one example where the debugger fails to reference a class name with the following dll name *Lib-9.0d*.
 
